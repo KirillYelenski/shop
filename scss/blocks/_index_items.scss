@@ -1,0 +1,147 @@
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    padding-bottom: 95px;
+}
+
+.items__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+
+}
+
+.items__title-main {
+    color: #222;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.items__title-text {
+    color: #9F9F9F;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.items__carts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.catalog__cart {
+    width: 360px;
+    height: 581px;
+    background-color: #F8F8F8;
+}
+
+
+.cart__img-wrapper-1,
+.cart__img-wrapper-2,
+.cart__img-wrapper-3,
+.cart__img-wrapper-4,
+.cart__img-wrapper-5,
+.cart__img-wrapper-6 {
+    width: 360px;
+    height: 420px;
+    position: relative;
+}
+
+.cart__img-1,
+.cart__img-2,
+.cart__img-3,
+.cart__img-4,
+.cart__img-5,
+.cart__img-6 {
+    position: absolute;
+    width: 360px;
+    height: 420px;
+}
+
+.cart__img-1-hover,
+.cart__img-2-hover,
+.cart__img-3-hover,
+.cart__img-4-hover,
+.cart__img-5-hover,
+.cart__img-6-hover {
+    position: absolute;
+    background-color: rgba(58, 56, 56, 0.86);
+    width: 360px;
+    height: 420px;
+    z-index: 2;
+    display: none;
+}
+
+.items__cart1:hover .cart__img-1-hover,
+.items__cart2:hover .cart__img-2-hover,
+.items__cart3:hover .cart__img-3-hover,
+.items__cart4:hover .cart__img-4-hover,
+.items__cart5:hover .cart__img-5-hover,
+.items__cart6:hover .cart__img-6-hover {
+    display: block;
+}
+
+
+.cart__basket-1,
+.cart__basket-2,
+.cart__basket-3,
+.cart__basket-4,
+.cart__basket-5,
+.cart__basket-6 {
+    margin: 188px 110px;
+    display: flex;
+    gap: 11px;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    width: 139px;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cart__title {
+    margin: 0;
+    padding: 24px 0 0 16px;
+    color: #000;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.cart__text {
+    padding: 12px 0 0 16px;
+    color: #5D5D5D;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.cart__cost {
+    padding: 18px 0 0 16px;
+    color: #F16D7F;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.items__button-link {
+    color: #F26376;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px 39px;
+    border: 1px solid #FF6A6A;
+    text-decoration: none;
+}
+
+.items__button-link:hover {
+    color: #FFF;
+    background-color: #F16D7F;
+    border: none;
+}

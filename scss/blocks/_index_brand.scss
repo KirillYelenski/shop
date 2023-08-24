@@ -1,0 +1,25 @@
+.brand {
+    display: flex;
+    background-color: #F1E4E6;
+    align-items: center;
+
+    .brand__title {
+        color: #222;
+        font-size: 48px;
+        font-weight: 900;
+        flex-grow: 1;
+        width: 377px;
+
+        .brand__title-1 {
+            color: #222;
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        .brand__title-2 {
+            color: #F16D7F;
+            font-size: 32px;
+            font-weight: 700;
+        }
+    }
+}

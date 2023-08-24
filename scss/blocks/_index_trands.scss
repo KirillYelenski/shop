@@ -1,0 +1,166 @@
+.trands {
+    padding: 65px 0 96px 0;
+
+    .trands__title {
+        display: none;
+    }
+
+    .trands__navigation {
+        .trands__list {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+
+            .trand-1 {
+                position: relative;
+                width: 360px;
+                height: 260px;
+
+                .trands__link-1 {
+                    position: relative;
+
+                    .trands__title-1 {
+                        position: absolute;
+                        z-index: 1;
+                        color: #FFF;
+                        text-align: center;
+                        font-size: 16px;
+                        font-weight: 400;
+                        width: 154px;
+                        margin: 0;
+                        top: 105px;
+                        left: 103px;
+
+                        .trands__span-1 {
+                            color: #F16D7F;
+                            font-size: 24px;
+                            font-weight: 700;
+                        }
+                    }
+
+                    .trand__img-1 {
+                        position: absolute;
+                    }
+
+                    .trands__background-1 {
+                        position: absolute;
+                    }
+                }
+            }
+
+            .trand-2 {
+                position: relative;
+                width: 360px;
+                height: 260px;
+
+                .trands__link-2 {
+                    position: relative;
+
+                    .trands__title-2 {
+                        position: absolute;
+                        z-index: 1;
+                        color: #FFF;
+                        text-align: center;
+                        font-size: 16px;
+                        font-weight: 400;
+                        width: 110px;
+                        margin: 0;
+                        top: 105px;
+                        left: 125px;
+
+                        .trands__span-2 {
+                            color: #F16D7F;
+                            font-size: 24px;
+                            font-weight: 700;
+
+                        }
+                    }
+
+                    .trand__img-2 {
+                        position: absolute;
+                    }
+
+                    .trands__background-2 {
+                        position: absolute;
+                    }
+                }
+            }
+
+            .trand-3 {
+                position: relative;
+                width: 360px;
+                height: 260px;
+
+                .trands__link-3 {
+                    position: relative;
+
+
+                    .trands__title-3 {
+                        position: absolute;
+                        z-index: 1;
+                        color: #FFF;
+                        text-align: center;
+                        font-size: 16px;
+                        font-weight: 400;
+                        width: 115px;
+                        margin: 0;
+                        top: 105px;
+                        left: 123px;
+
+                        .trands__span-3 {
+                            color: #F16D7F;
+                            font-size: 24px;
+                            font-weight: 700;
+                        }
+                    }
+
+                    .trand__img-3 {
+                        position: absolute;
+                    }
+
+                    .trands__background-3 {
+                        position: absolute;
+                    }
+                }
+            }
+
+            .trand-4 {
+                position: relative;
+                width: 1140px;
+                height: 180px;
+
+                .trands__link-4 {
+                    position: relative;
+
+                    .trands__title-4 {
+                        position: absolute;
+                        z-index: 1;
+                        color: #FFF;
+                        text-align: center;
+                        font-size: 16px;
+                        font-weight: 400;
+                        width: 160px;
+                        top: 65px;
+                        left: 490px;
+                        margin: 0px;
+
+                        .trands__span-4 {
+                            color: #F16D7F;
+                            font-size: 24px;
+                            font-weight: 700;
+                        }
+                    }
+
+                    .trand__img-4 {
+                        position: absolute;
+                    }
+
+                    .trands__background-4 {
+                        position: absolute;
+                    }
+                }
+            }
+        }
+    }
+
+}

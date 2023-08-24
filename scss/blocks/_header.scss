@@ -1,0 +1,26 @@
+.header {
+
+    background-color: #222222;
+    min-height: 75px;
+
+    .conteiner {
+        .header__nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 75px;
+
+            .header__left {
+                display: flex;
+                gap: 41px;
+                align-items: center;
+            }
+
+            .header__right {
+                display: flex;
+                gap: 30px;
+                align-items: center;
+            }
+        }
+    }
+}

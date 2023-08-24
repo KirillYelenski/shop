@@ -1,0 +1,162 @@
+.footer {
+    position: relative;
+
+    .footer__info {
+        height: 448px;
+
+        align-items: center;
+
+        .footer__info-background {
+            position: absolute;
+            z-index: -1;
+            opacity: 0.5;
+        }
+
+        .conteiner {
+            .footer__info-wrapper {
+                padding-top: 97px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-right: 100px;
+                box-sizing: border-box;
+
+                .owner {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 360px;
+
+                    .owner__text {
+                        color: #222224;
+                        text-align: center;
+                        font-size: 20px;
+                        font-weight: 400;
+
+                        .owner__text-span {
+                            color: #222224;
+                            font-size: 20px;
+                            font-style: italic;
+                            font-weight: 400;
+                        }
+                    }
+
+                }
+
+                .subscribe {
+                    .subscribe__text {
+                        color: #222224;
+                        text-align: center;
+                        font-size: 24px;
+                        font-weight: 700;
+                        line-height: 167.2%;
+
+                        .subscribe__text-span {
+                            color: #222224;
+                            font-size: 18px;
+                            font-weight: 400;
+                            line-height: 167.2%;
+                        }
+                    }
+
+                    .email__area {
+                        display: flex;
+
+
+                        .subscribe__input {
+                            border-top-left-radius: 50px 100px;
+                            border-bottom-left-radius: 50px 100px;
+                            border: none;
+                            background-color: rgba(225, 225, 225, 1);
+                            color: #222224;
+                            font-size: 14px;
+                            font-weight: 400;
+                            min-width: 256px;
+                            min-height: 49px;
+                            box-sizing: border-box;
+                            padding-left: 22px;
+                        }
+
+                        .subscribe__button {
+                            color: #FFF;
+                            text-align: center;
+                            font-size: 14px;
+                            font-weight: 400;
+                            width: 100px;
+                            height: 49px;
+                            flex-shrink: 0;
+                            border: none;
+                            background-color: rgba(241, 109, 127, 1);
+                            border-radius: 0 25px 25px 0;
+                        }
+
+                        .subscribe__button:hover {
+                            background-color: #E05C6E;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .footer__main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #222222;
+        min-height: 79px;
+    }
+
+    .footer__main-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .copyright {
+        color: #FBFBFB;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .socials {
+        display: flex;
+        gap: 7px;
+    }
+
+    .facebook__link,
+    .instagram__link,
+    .pinterest__link,
+    .twitter__link {
+        display: block;
+        width: 32px;
+        height: 32px;
+        background-color: #fff;
+        position: relative;
+    }
+
+    .facebook__link:hover,
+    .instagram__link:hover,
+    .pinterest__link:hover,
+    .twitter__link:hover {
+        background-color: #F16D7F;
+    }
+
+    .facebook__link:hover .facebook__img,
+    .instagram__link:hover .instagram__img,
+    .pinterest__link:hover .pinterest__img,
+    .twitter__link:hover .twitter__img {
+        fill: white;
+    }
+
+    .facebook__img,
+    .instagram__img,
+    .pinterest__img,
+    .twitter__img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        fill: black;
+    }
+}
