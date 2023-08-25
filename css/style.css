@@ -36,6 +36,47 @@ ul {
   gap: 30px;
   align-items: center;
 }
+.header .conteiner .header__nav .header__right nav {
+  filter: drop-shadow(6px 4px 35px rgba(0, 0, 0, 0.21));
+  position: absolute;
+  display: none;
+}
+.header .conteiner .header__nav .header__right nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 37px;
+  padding-left: 34px;
+  box-sizing: border-box;
+  position: relative;
+  width: 232px;
+  height: 764px;
+  background-color: #fff;
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  top: 24px;
+  left: 151px;
+}
+.header .conteiner .header__nav .header__right nav ul li .menu__section {
+  display: block;
+  padding-top: 8px;
+  color: #F16D7F;
+  font-size: 14px;
+  font-weight: 400;
+}
+.header .conteiner .header__nav .header__right nav ul li .menu__list {
+  padding-left: 22px;
+}
+.header .conteiner .header__nav .header__right nav ul li a {
+  color: #6F6E6E;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.header .conteiner .header__nav .header__right .header__menu:hover nav {
+  display: block;
+}
 
 .brand {
   display: flex;
