@@ -1,0 +1,56 @@
+.hat {
+    height: 148px;
+    background-color: #F8F3F4;
+    display: flex;
+    align-items: center;
+
+    .conteiner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .hat__title {
+            margin: 0;
+            color: #F16D7F;
+            font-size: 24px;
+            font-weight: 400;
+        }
+
+        nav {
+            height: 16px;
+
+
+            .hat__nav {
+                display: flex;
+                gap: 5px;
+
+                p {
+                    padding-top: 2px;
+                    margin: 0;
+                    display: block;
+                    color: #636363;
+                    font-size: 14px;
+                    font-weight: 300;
+                }
+
+                li {
+                    color: #636363;
+
+                    .color__last {
+                        color: #F16D7F;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: inherit;
+                        font-size: 14px;
+                        font-weight: 300;
+                    }
+                }
+            }
+
+
+        }
+
+    }
+}
