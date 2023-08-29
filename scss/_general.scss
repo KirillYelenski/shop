@@ -1,17 +1,26 @@
 body {
-    width: 1600px;
-    margin: 0 auto;
-    font-family: 'Lato', sans-serif;
+  width: 1600px;
+  margin: 0 auto;
+  font-family: "Lato", sans-serif;
 }
 
 ol,
 ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .conteiner {
-    width: 1140px;
-    margin: 0 auto;
+  width: 1140px;
+  margin: 0 auto;
+}
+.hidden__block {
+  visibility: hidden;
+}
+.visible__block {
+  visibility: visible;
+}
+.hidden__block:hover {
+  visibility: visible;
 }
