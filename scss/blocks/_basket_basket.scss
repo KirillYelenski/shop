@@ -1,0 +1,208 @@
+.basket {
+  padding: 96px 0 128px 0;
+  display: flex;
+  justify-content: space-between;
+  .basket__carts {
+    width: 652px;
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      .basket__item {
+        width: 652px;
+        box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+        height: 306px;
+        display: flex;
+
+        img {
+        }
+        div {
+          padding: 22px 57px 0 31px;
+          margin: 0;
+          width: 262px;
+          color: #575757;
+          font-size: 22px;
+          font-weight: 400;
+
+          h3 {
+            margin: 0;
+            box-sizing: border-box;
+            display: block;
+            width: 262px;
+            padding-bottom: 42px;
+          }
+
+          .item__price {
+            margin: 0;
+            padding-bottom: 6px;
+            .item__price-value {
+              color: #ef5b70;
+              padding-left: 10px;
+            }
+          }
+          .item__color {
+            margin: 0;
+            padding-bottom: 6px;
+            .item__color-value {
+              padding-left: 10px;
+            }
+          }
+          .item__size {
+            margin: 0;
+            padding-bottom: 6px;
+            .item__size-value {
+              padding-left: 10px;
+            }
+          }
+          div {
+            padding: 0;
+            display: flex;
+            .item__quantity {
+              width: 97px;
+              padding-right: 24px;
+              margin: 0;
+            }
+            .item__quantity-value {
+              padding: 0;
+              box-sizing: border-box;
+              height: 25px;
+              width: 44px;
+            }
+          }
+        }
+        .basket__button-close {
+          padding: 28px 22px 0 0;
+          align-self: flex-start;
+          border: none;
+          background-color: rgba(255, 255, 255, 0);
+          svg {
+          }
+        }
+      }
+    }
+    .basket__item-buttons {
+      padding-top: 72px;
+      color: #000;
+      display: flex;
+      justify-content: space-between;
+
+      .basket__button-clear {
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 300;
+        box-sizing: border-box;
+        padding: 17px 40px 16px 39px;
+        border: 1px solid #a4a4a4;
+        background-color: #ffffff00;
+      }
+      .basket__button-continue {
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 300;
+        box-sizing: border-box;
+        padding: 17px 40px 16px 39px;
+        border: 1px solid #a4a4a4;
+        background-color: #ffffff00;
+      }
+    }
+  }
+  .basket__shipping {
+    width: 360px;
+
+    form {
+      padding-top: 17px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 22px;
+      color: #222;
+      font-family: Lato;
+      font-size: 16px;
+      font-weight: 300;
+      input {
+        border: 1px solid #a4a4a4;
+        height: 44px;
+        width: 360px;
+        padding-left: 16px;
+        color: #b1b1b1;
+        font-family: Lato;
+        font-size: 13px;
+        font-weight: 300;
+      }
+      input::placeholder {
+        color: #222;
+        font-family: Lato;
+        font-size: 13px;
+        font-weight: 300;
+      }
+
+      .basket__button-quote {
+        color: #4a4a4a;
+        font-family: Lato;
+        font-size: 11px;
+        font-weight: 300;
+        background-color: #ffffff00;
+        border: 1px solid #a4a4a4;
+        padding: 11px 14px;
+        box-sizing: border-box;
+      }
+    }
+    .basket__cost {
+      margin-top: 57px;
+      box-sizing: border-box;
+      width: 360px;
+      height: 214px;
+      background-color: #f5f3f3;
+      padding: 39px 42px 42px 42px;
+      display: flex;
+      flex-direction: column;
+
+      .sub__total {
+        color: #4a4a4a;
+        font-family: Lato;
+        font-size: 11px;
+        font-weight: 400;
+        padding-bottom: 12px;
+        align-self: flex-end;
+        margin: 0;
+        .sub__total-value {
+          padding-left: 25px;
+        }
+      }
+      .grand__total {
+        color: #222;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 300;
+        padding-bottom: 20px;
+        align-self: flex-end;
+
+        margin: 0;
+        .grand__total-value {
+          padding-left: 28px;
+          color: #f16d7f;
+          font-family: Lato;
+          font-size: 16px;
+          font-weight: 700;
+        }
+      }
+      .basket__cost-hr {
+        background-color: #e2e2e2;
+        width: 275px;
+        height: 5px;
+        margin-bottom: 17px;
+      }
+
+      .basket__button-checkout {
+        color: #fff;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 300;
+        padding: 15px 42px;
+        box-sizing: border-box;
+        border: none;
+        background-color: #f16d7f;
+      }
+    }
+  }
+}
