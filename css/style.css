@@ -990,4 +990,114 @@ ul {
 }
 .registration .registration__info ul .registration__info-list {
   padding-left: 22px;
+}
+
+.product .product__slide {
+  height: 777px;
+  position: relative;
+}
+.product .product__slide img {
+  position: absolute;
+}
+.product .product__slide .slide__button-left {
+  position: absolute;
+  top: 364px;
+  right: 1551px;
+  z-index: 5;
+}
+.product .product__slide .slide__button-right {
+  position: absolute;
+  top: 364px;
+  right: 5px;
+  z-index: 5;
+}
+.product .product__info {
+  height: 664px;
+  position: relative;
+}
+.product .product__info .product__info-wrapper {
+  box-sizing: border-box;
+  padding: 64px 250px;
+  border: 1px solid #eaeaea;
+  background-color: #fff;
+  height: 601px;
+  top: -78px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product .product__info .product__info-wrapper h3 {
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0 0 12px 0;
+}
+.product .product__info .product__info-wrapper h4 {
+  color: #4d4d4d;
+  margin: 12px 0 48px 0;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 300;
+}
+.product .product__info .product__info-wrapper .product__info-text {
+  color: #5e5e5e;
+  margin: 0;
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 300;
+  width: 555px;
+}
+.product .product__info .product__info-wrapper .product__info-cost {
+  margin: 32px 0 65px 0;
+  color: #ef5b70;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 300;
+}
+.product .product__info .product__info-wrapper nav {
+  margin-top: 65px;
+}
+.product .product__info .product__info-wrapper nav ul {
+  display: flex;
+  gap: 23px;
+}
+.product .product__info .product__info-wrapper nav ul li button {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.product .product__info .product__info-wrapper nav ul li button p {
+  color: #6f6e6e;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+}
+.product .product__info .product__info-wrapper .product__info-add {
+  border: 1px solid #ff6a6a;
+  padding: 15px 57px 9px 24px;
+  margin-top: 48px;
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+.product .product__info .product__info-wrapper .product__info-add p {
+  color: #f26376;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+.product .product__other {
+  display: flex;
+  gap: 30px;
+  padding: 128px 0;
 }/*# sourceMappingURL=style.css.map */
